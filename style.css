@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+    height: 80px;
+    width: auto;
+    background-color: yellowgreen;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    color: blue;
+  }
+  
+  #textbox {
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+  }
+  
+  #btn {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 320px;
+  }
+  
+  .myButton {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-bottom: 320px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color:#79bbff;
+    border-radius:5px;
+    border:1px solid #337bc4;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+  }
+  .myButton:hover {
+    background:linear-gradient(to bottom, orange 5%, yellow 100%);
+    background-color: blue;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
+
+  #output {
+    color: blue;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+#foot {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .nav{
+    padding-top: 0;
+  }
+
+  .myButton {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  #textbox {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
